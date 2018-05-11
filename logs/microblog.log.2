@@ -1,0 +1,131 @@
+2018-05-09 18:26:40,402 INFO: Microblog startup [in /home/haydenknapp/Documents/microblog/app/__init__.py:52]
+2018-05-09 18:27:25,332 INFO: Microblog startup [in /home/haydenknapp/Documents/microblog/app/__init__.py:52]
+2018-05-09 18:29:28,130 INFO: Microblog startup [in /home/haydenknapp/Documents/microblog/app/__init__.py:52]
+2018-05-09 18:30:20,349 INFO: Microblog startup [in /home/haydenknapp/Documents/microblog/app/__init__.py:52]
+2018-05-09 18:39:59,770 INFO: Microblog startup [in /home/haydenknapp/Documents/microblog/app/__init__.py:52]
+2018-05-09 18:44:43,148 INFO: Microblog startup [in /home/haydenknapp/Documents/microblog/app/__init__.py:52]
+2018-05-09 18:52:20,840 INFO: Microblog startup [in /home/haydenknapp/Documents/microblog/app/__init__.py:52]
+2018-05-09 18:55:24,159 INFO: Microblog startup [in /home/haydenknapp/Documents/microblog/app/__init__.py:52]
+2018-05-09 18:55:38,182 INFO: Microblog startup [in /home/haydenknapp/Documents/microblog/app/__init__.py:52]
+2018-05-09 18:59:17,717 INFO: Microblog startup [in /home/haydenknapp/Documents/microblog/app/__init__.py:52]
+2018-05-09 19:01:24,867 INFO: Microblog startup [in /home/haydenknapp/Documents/microblog/app/__init__.py:52]
+2018-05-09 19:01:56,283 INFO: Microblog startup [in /home/haydenknapp/Documents/microblog/app/__init__.py:52]
+2018-05-09 19:02:45,033 INFO: Microblog startup [in /home/haydenknapp/Documents/microblog/app/__init__.py:52]
+2018-05-09 19:03:09,899 INFO: Microblog startup [in /home/haydenknapp/Documents/microblog/app/__init__.py:52]
+2018-05-09 19:04:22,171 INFO: Microblog startup [in /home/haydenknapp/Documents/microblog/app/__init__.py:52]
+2018-05-09 19:05:34,053 INFO: Microblog startup [in /home/haydenknapp/Documents/microblog/app/__init__.py:52]
+2018-05-09 19:09:07,691 INFO: Microblog startup [in /home/haydenknapp/Documents/microblog/app/__init__.py:52]
+2018-05-09 19:09:25,630 INFO: Microblog startup [in /home/haydenknapp/Documents/microblog/app/__init__.py:52]
+2018-05-09 19:10:01,447 INFO: Microblog startup [in /home/haydenknapp/Documents/microblog/app/__init__.py:52]
+2018-05-09 19:12:49,527 ERROR: Exception on /index [POST] [in /usr/lib/python3/dist-packages/flask/app.py:1560]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib/python3/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/haydenknapp/.local/lib/python3.6/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/haydenknapp/Documents/microblog/app/routes.py", line 30, in index
+    language = guess_language(form.post.data)
+TypeError: 'module' object is not callable
+2018-05-09 19:13:47,199 INFO: Microblog startup [in /home/haydenknapp/Documents/microblog/app/__init__.py:52]
+2018-05-09 19:14:09,422 ERROR: Exception on /index [POST] [in /usr/lib/python3/dist-packages/flask/app.py:1560]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib/python3/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/haydenknapp/.local/lib/python3.6/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/haydenknapp/Documents/microblog/app/routes.py", line 30, in index
+    language = guess_language(form.post.data)
+TypeError: 'module' object is not callable
+2018-05-09 19:14:52,584 ERROR: Exception on /index [POST] [in /usr/lib/python3/dist-packages/flask/app.py:1560]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib/python3/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/haydenknapp/.local/lib/python3.6/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/haydenknapp/Documents/microblog/app/routes.py", line 30, in index
+    language = guess_language(form.post.data)
+TypeError: 'module' object is not callable
+2018-05-09 19:15:57,838 INFO: Microblog startup [in /home/haydenknapp/Documents/microblog/app/__init__.py:52]
+2018-05-09 19:25:13,487 INFO: Microblog startup [in /home/haydenknapp/Documents/microblog/app/__init__.py:52]
+2018-05-09 19:29:35,815 INFO: Microblog startup [in /home/haydenknapp/Documents/microblog/app/__init__.py:52]
+2018-05-09 19:30:07,079 INFO: Microblog startup [in /home/haydenknapp/Documents/microblog/app/__init__.py:52]
+2018-05-09 19:33:47,852 INFO: Microblog startup [in /home/haydenknapp/Documents/microblog/app/__init__.py:52]
+2018-05-09 19:37:30,535 INFO: Microblog startup [in /home/haydenknapp/Documents/microblog/app/__init__.py:52]
+2018-05-09 19:38:52,758 INFO: Microblog startup [in /home/haydenknapp/Documents/microblog/app/__init__.py:52]
+2018-05-09 19:41:05,134 INFO: Microblog startup [in /home/haydenknapp/Documents/microblog/app/__init__.py:52]
+2018-05-09 19:42:23,685 INFO: Microblog startup [in /home/haydenknapp/Documents/microblog/app/__init__.py:52]
+2018-05-09 19:51:38,446 INFO: Microblog startup [in /home/haydenknapp/Documents/microblog/app/__init__.py:52]
+2018-05-09 19:52:10,971 INFO: Microblog startup [in /home/haydenknapp/Documents/microblog/app/__init__.py:52]
+2018-05-09 19:52:32,870 ERROR: Exception on /email_me/23 [GET] [in /usr/lib/python3/dist-packages/flask/app.py:1560]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib/python3/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/haydenknapp/.local/lib/python3.6/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/haydenknapp/Documents/microblog/app/routes.py", line 214, in email_me
+    send_post_email(current_useri, "sdads")
+NameError: name 'current_useri' is not defined
+2018-05-09 19:52:47,506 INFO: Microblog startup [in /home/haydenknapp/Documents/microblog/app/__init__.py:52]
+2018-05-09 19:59:48,834 INFO: Microblog startup [in /home/haydenknapp/Documents/microblog/app/__init__.py:52]
+2018-05-09 20:16:02,761 INFO: Microblog startup [in /home/haydenknapp/Documents/microblog/app/__init__.py:52]
+2018-05-09 20:16:16,433 ERROR: Exception on /email_me/23 [GET] [in /usr/lib/python3/dist-packages/flask/app.py:1560]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib/python3/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/haydenknapp/.local/lib/python3.6/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/haydenknapp/Documents/microblog/app/routes.py", line 218, in email_me
+    c.execute("SELECT body FROM user WHERE id='{}';".format(id))
+sqlite3.OperationalError: no such column: body
+2018-05-09 20:17:06,172 INFO: Microblog startup [in /home/haydenknapp/Documents/microblog/app/__init__.py:52]
+2018-05-09 20:19:32,014 INFO: Microblog startup [in /home/haydenknapp/Documents/microblog/app/__init__.py:52]
